@@ -50,3 +50,4 @@ interface TokenResponse {
 ## Error handling
 If an error is sent back by Stripe, it's made available in the `error` key inside of the `TokenResponse` interface
 
+

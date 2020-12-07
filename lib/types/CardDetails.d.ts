@@ -1,8 +1,8 @@
 export declare type CardDetails = {
-    readonly number: string;
+    readonly number: number;
     readonly exp_month: number;
     readonly exp_year: number;
-    readonly cvc: string;
+    readonly cvc: number;
     readonly name: string;
     readonly address_line1?: string;
     readonly address_line2?: string;

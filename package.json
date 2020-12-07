@@ -4,6 +4,17 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
+  "keywords": [
+    "stripe",
+    "react",
+    "react native",
+    "payments"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeremyWashington/react-stripe-typescript-client"
+  },
+  "homepage": "https://github.com/JeremyWashington/react-stripe-typescript-client",
   "files": [
     "lib/**/*"
   ],
