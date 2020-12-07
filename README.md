@@ -21,13 +21,15 @@ import { createToken } from "react-stripe-typescript-client"
 const res: TokenResponse = await createToken(
     'YOUR_PUBLISHABLE_STRIPE_TOKEN',
       {
-        cvc: '245',
+        cvc: 245,
         exp_month: 12,
         exp_year: 24,
-        number: '42424242424242',
+        number: 42424242424242,
       }
     );
 ```
+
+The `createToken` function also accepts all other [Stripe card parameters ](https://stripe.com/docs/api/tokens/create_card#create_card_token-card) within the card object
 
 The TokenResponse interface has the following format
 
