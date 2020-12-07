@@ -1,4 +1,4 @@
-import { createToken } from './stripe';
+import { createToken } from "./index";
 
 
 const stripeTestToken = 'YOUR_STRIPE_TEST_TOKEN'
